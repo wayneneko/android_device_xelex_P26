@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
 
 # Keylayout
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/idc/qpnp_keypad.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/qpnp_keypad.idc \
     $(LOCAL_PATH)/configs/idc/touch_kbd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_kbd.idc
 
 # Overlays
